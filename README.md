@@ -27,7 +27,6 @@ Main activities of the project:
 7. Publication of the results of the demo project and preparation of the project documentation.
 
 
-
 ### Challenge
 
 One of the challenges that this demonstration project aims to address is the robotic production of acoustic panels to shorten the manufacturing time. As the assembly of acoustic panels is one of the most important and labor-intensive steps in the production process, the total time required to manufacture the product is directly related to the performance of the workstation.
@@ -35,10 +34,21 @@ One of the challenges that this demonstration project aims to address is the rob
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Data Sources
-*Please describe which data was used for the technological solution.*  
-- [Source 1],
-- [Source 2],
-- etc... .
+
+For implementation of the project, research articles in this field were studied and analyzed. In addition, the following software solutions were used:
+1. Cognex In-Sight Explorer for machine vision testing
+2. RoboDK simulation software for robot application testing and simulation
+3. Visual Components sofware for workplace layout preparation and simulation
+4. Universal Robots (UR) virtual machine (on Oracle VirtualBox) for robot program simulation
+5. SolidWorks CAD software for fixture design and development
+6. Python programming language for creation of robot parametric programs in RoboDK
+
+The following data was gathered during the analysis and project:
+- production data (time for assembly of acoustic panel)
+- production floor layout plan for simulation
+- machine vision data for training the model for product recognition
+- product data for creation of robot parametric programs
+
 
 ### AI Technologies
 *Please describe and justify the use of selected AI technologies.*
