@@ -1,12 +1,10 @@
-*This is a template repository for this organization. Start by replacing the placeholder for the project name with its actual title.*
-
-# [Demonstration Project title]
+# [Testing of a robotic assembly workstation for the production of acoustic panels at Silen OÜ]
 
 ## Summary
-| Company Name | [Company](https://website.link) |
+| Company Name | [Silen OÜ](https://silen.com/en) |
 | :--- | :--- |
-| Development Team Lead Name | [Dr. John Smith](https://profile.link) |
-| Development Team Lead E-mail | [email@example.com](mailto:email@example.com) |
+| Development Team Lead Name | [Martinš Sarkans, PhD](https://www.etis.ee/CV/Martins_Sarkans/eng/) |
+| Development Team Lead E-mail | [martins.sarkans@taltech.ee](mailto:martins.sarkans@taltech.ee) |
 | Duration of the Demonstration Project | month/year-month/year |
 | Final Report | [Example_report.pdf](https://github.com/ai-robotics-estonia/_project_template_/files/13800685/IC-One-Page-Project-Status-Report-10673_PDF.pdf) |
 
