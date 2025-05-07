@@ -5,18 +5,16 @@
 | :--- | :--- |
 | Development Team Lead Name | [Martinš Sarkans, PhD](https://www.etis.ee/CV/Martins_Sarkans/eng/) |
 | Development Team Lead E-mail | [martins.sarkans@taltech.ee](mailto:martins.sarkans@taltech.ee) |
-| Duration of the Demonstration Project | month/year-month/year |
+| Duration of the Demonstration Project | 01.12.2024 - 30.04.2025 |
 | Final Report | [Example_report.pdf](https://github.com/ai-robotics-estonia/_project_template_/files/13800685/IC-One-Page-Project-Status-Report-10673_PDF.pdf) |
-
-### Each project has an alternative for documentation
-1. Fill in the [description](#description) directly in the README below *OR*;
-2. make a [custom agreement with the AIRE team](#custom-agreement-with-the-AIRE-team).
 
 # Description
 ## Objectives of the Demonstration Project
-*Please describe your project objectives in detail.*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+One of the challenges that this demonstration project aims to address is the robotic production of acoustic panels to shorten the manufacturing time. As the assembly of acoustic panels is one of the most important and labor-intensive steps in the production process, the total time required to manufacture the product is directly related to the performance of the workstation.
+The aim of the demonstration project is to test the process of robotic screw fastening of acoustic panels with different configurations, considering the different dimensions of the panels, the number of screws to be installed and their installation. Considering the number of silence rooms to be produced and the projected increase in production volume, it is important to shorten the production time. One of the possible ways of achieving this is to move towards automation-robotic production.
+This demonstration project links robotics (UR10 collaborative robot), automation (screw feeder, automatic screwdriver, intelligent jig), AI tools (digital workstation, machine vision tools, robot trajectory simulation).
+Although many components are available separately on the market, there is no comprehensive solutions (integration) and methodology to make it fit to the company’s processes. The solution will consider the company’s specific production processes and requirements for the parameters of the acoustic panels, as well as the possibilities for implementing fully automated production (batch production) in the company or for deployment in other companies in the sector. Possible expected results: realization of a product assembly operation in the company, development of an assembly cell concept, selection of a suitable robot to carry out the assembly operation, selection of tools, simulation and testing.
 
 ## Activities and Results of the Demonstration Project
 ### Challenge
