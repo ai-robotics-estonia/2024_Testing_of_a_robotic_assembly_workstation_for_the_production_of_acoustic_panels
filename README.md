@@ -6,7 +6,6 @@
 | Development Team Lead Name | [Martinš Sarkans, PhD](https://www.etis.ee/CV/Martins_Sarkans/eng/) |
 | Development Team Lead E-mail | [martins.sarkans@taltech.ee](mailto:martins.sarkans@taltech.ee) |
 | Duration of the Demonstration Project | 01.12.2024 - 30.04.2025 |
-| Final Report | [Example_report.pdf](https://github.com/ai-robotics-estonia/_project_template_/files/13800685/IC-One-Page-Project-Status-Report-10673_PDF.pdf) |
 
 # Description
 
@@ -26,12 +25,9 @@ Main activities of the project:
 6. Drafting a general description of the concept of the central business solution (describing the solution in terms of the product and the business process and completing the simulation).
 7. Publication of the results of the demo project and preparation of the project documentation.
 
-
 ### Challenge
 
 One of the challenges that this demonstration project aims to address is the robotic production of acoustic panels to shorten the manufacturing time. As the assembly of acoustic panels is one of the most important and labor-intensive steps in the production process, the total time required to manufacture the product is directly related to the performance of the workstation.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Data Sources
 
