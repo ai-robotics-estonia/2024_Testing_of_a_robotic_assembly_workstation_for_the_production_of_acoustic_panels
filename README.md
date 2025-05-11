@@ -76,12 +76,29 @@ For the Machine Vision training following data was gathered about the product: a
 
 ### AI Technologies
 
+For each stage of the project, a detailed description has been documented, the necessary simulations have been carried out, test data have been collected (screwing data, measurement and detection data, assembly data). The solutions have been tested and verified at different stages of the project. These are the following results:
+-	physical testing for robotic screwing has been carried out, data collection, technical solution suitability assessment.
+-	automatic generation of the robot program in a simulation environment, based on a Python script for generating the code, testing of the solution's functionality.
+-	testing machine vision functionality, collection of data on the product, evaluation of the suitability of different detection algorithms, testing of the performance of machine vision solution on a real test set-up.
+-	carried out a workstation reconfiguration in the simulation model, created a new workstation layout, designed a cell for product positioning, tested the suitability of the cell for product design.
+
+Product detection and hole location detection is based on image recognition and checks the position of the product based on the edges and the location and pattern of the holes based on the contours of the holes. Based on AI technology and image recognition, it decides whether the product is correct, identifies the coordinates of the holes and sends the commands to a collaborative robot, which selects the appropriate program for the product.
+
+Machine vision solution testing and validation.
+At the wall panel assembly workstation, it is necessary to identify the type, location and coordinates of the product to provide the collaborative robot with the necessary parameters to generate and run the screwing program. In this case, the product is a plate of a given shape with machined holes for the screws. The holes for the screws are machined according to a specific pattern, which provides the basis for the generation of the robot program. If the program for the robot is parametric, the position of the plate in relation to the robot is not always in the same place. Therefore, it is important to provide the robot controller with the coordinates of the angular position of the plate (with respect to which the screw holes are located). The following software and hardware have been used as a solution to the problem: Cognex camera Cognex In-Sight 7905C (color camera, 5 MP), Cognex In-Sight Explorer software, Optics Fujinon HF12.5HA-1S (C-mount), Optics Moritex LMC-ML-M2516UR (C-mount), lighting (LED, flood light).
+
+Generating the robot program (python and RoboDK)
+The robot program uses a Python script to create the target points, which helps to read in the coordinates of the holes from the wall panel model. This is a machine learning technique that helps speed up the programming of the robot system. This is when the pattern or locations of the holes in the panel change. Then, generating a new program for the robot is several times faster than doing it manually.
+It is important to use correct coordinate systems when generating waypoints and working trajectories: robot base (workobject UR20 Base), Instrument screwdriver TCP (workobject 104-A00_prt_driver), Workobject of the application (workobject MyWorkObject).
+This program allows you to read the coordinates of openings from a csv file in a RoboDK environment through Python code. These are then marked and inserted as target points in the robot program. The target points are the motion of approaching the screwing, the motion of the screwing point and the motion of moving away from the screwing. The program has been tested in a simulation environment by simulating the screwdriving path of a specific product (wall panel).
 
 
 ### Technological Results
 *Please describe the results of testing and validating the technological solution.*
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
 
 ### Technical Architecture
 *Please describe the technical architecture (e.g, presented graphically, where the technical solution integration with the existing system can also be seen).*
@@ -92,16 +109,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![backend-architecture](https://github.com/ai-robotics-estonia/_project_template_/assets/15941300/6d405b21-3454-4bd3-9de5-d4daad7ac5b7)
 
 
+
+
 ### User Interface 
 *Please describe the details about the user interface(i.e, how does the client 'see' the technical result, whether a separate user interface was developed, command line script was developed, was it validated as an experiment, can the results be seen in ERP or are they integrated into work process)*
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+
+
+
 ### Future Potential of the Technical Solution
-*Please describe the potential areas for future use of the technical solution.*
-- [Use case 1],
-- [Use case 2],
-- etc... .
+
+A similar system solution can be used to automate various product assembly operations and to robotize downstream operations:
+-	Product fixing and positioning
+-	Moving product parts to the assembly Workstation
+-	Automatic generation of collaborative robot programs based on product information
+-	Detect and locate a detail and generate a programme for the robot
+-	Automation of screwdriving operation – robotisation
+
+Limitations of the system:
+-	The mass of the portable product is limited by the payload of the collaborative robot
+-	The workspace is limited by the distance between the input and output area and the workspace of the collaborative robot.
+-	It can be replaced by a collaborative robot or an industrial robot with a larger working area. The manufacturer of the collaborative robot is not important, there may be differences in the design of the communication.
+
+The technical solution consists of the integration of different technological capabilities, with the following components: a collaborative robot, a screw-feeding device, a rapid exchange solution for instruments, a product and its fixture, and a machine vision (MV) solution for hole detection. Artificial intelligence solutions include parametric programming of the collaborative robot (cobot), machine vision (MV) for hole location detection, product detection, digital twin (DT) generation and simulation.
+Potential areas: electronics, assembly operations, furniture manufacturing, small machine components, etc.
+
 
 ### Lessons Learned
 *Please describe the lessons learned (i.e. assessment whether the technological solution actually solved the initial challenge).*
