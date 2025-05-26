@@ -6,7 +6,7 @@
 | Development Team Lead Name | [Martinš Sarkans, PhD](https://www.etis.ee/CV/Martins_Sarkans/eng/) |
 | Development Team Lead E-mail | [martins.sarkans@taltech.ee](mailto:martins.sarkans@taltech.ee) |
 | Duration of the Demonstration Project | 01.12.2024 - 30.04.2025 |
-| Final raport | [Demo_Final_Raport_Silen_v03.pdf](https://github.com/ai-robotics-estonia/2024_-A_follow_up_project_for_testing_the_robot_assembly_of_intelligent_bag_filters/blob/main/Documents/Demo_Final_Raport_Silen_v03.pdf) |
+| Final raport | [Demo_Final_Raport_Silen_v03.pdf](https://github.com/ai-robotics-estonia/2024_Testing_of_a_robotic_assembly_workstation_for_the_production_of_acoustic_panels/tree/main/Documents/Demo_Final_Raport_Silen_v03.pdf) |
 | Link to ETIS | [Project](https://www.etis.ee/Portal/Projects/Display/024c846b-dbcd-422a-81e6-e6a0ef79ed4b) |
 
 # Description
