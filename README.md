@@ -96,29 +96,39 @@ This program allows you to read the coordinates of openings from a csv file in a
 
 
 ### Technological Results
-*Please describe the results of testing and validating the technological solution.*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+During the project, the concept of an intelligent fixture was developed, which allows the product to be positioned, secured and rotated to the required position at the robot workstation. This allows the product to be positioned in the appropriate position for screwing.
 
+
+Figure 1. Intelligent fixture solution for panel rotation (product not shown)
+
+
+Real testing of screwdriving on a product plate was carried out to evaluate the suitability of screwdriving automation using the cobot solution. The screwdriving worked and a high quality end result was achieved.
+
+
+Figure 2. Screwing workplace test rig and solutions
 
 
 ### Technical Architecture
-*Please describe the technical architecture (e.g, presented graphically, where the technical solution integration with the existing system can also be seen).*
-- [Component 1],
-- [Component 2], 
-- etc... .
 
-![backend-architecture](https://github.com/ai-robotics-estonia/_project_template_/assets/15941300/6d405b21-3454-4bd3-9de5-d4daad7ac5b7)
+As a result of the mapping and analysis of the drafting process, the concept and layout of the workplace (including the jig and the robot) were developed. This allows the separation of manual processes and automatic processes.
+
+Figure 3. Workplace layout concept
 
 
+The user interface has been solved in a UR robot programming environment (for the screwing process). In it, it is possible to view and prepare the robot programming code.
+
+Figure 4. User interface in UR virtual environment
+
+
+In terms of machine learning, product detection, hole location and coordinate assignment to the robot system were tested. The solution for this detection has been developed in the Cognex In-Sight Explorer environment.
+
+Figure 5. Machine vision solution for product identification
 
 
 ### User Interface 
-*Please describe the details about the user interface(i.e, how does the client 'see' the technical result, whether a separate user interface was developed, command line script was developed, was it validated as an experiment, can the results be seen in ERP or are they integrated into work process)*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
+As the development of a user interface was not the aim of this demo project, there is no separate user interface as such. The UI solutions are related to the specific tools that were used (RoboDK simulation environment and script, Visual Components simulation environment and Cognex In-Sight Explorer environment for machine vision). These environments were used to validate the performance of the robot workstation and to validate the assembly process suitability of the product.
 
 
 ### Future Potential of the Technical Solution
@@ -140,7 +150,13 @@ Potential areas: electronics, assembly operations, furniture manufacturing, smal
 
 
 ### Lessons Learned
-*Please describe the lessons learned (i.e. assessment whether the technological solution actually solved the initial challenge).*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The technological solution meets the objectives set at the beginning of the project. The system needs further development to test it in production over a longer period. Improvements for further development:
+-	The design of the robot tool could be upgraded to also allow lifting of panel plates.
+-	The design of the designed smart fixture could be upgraded based on product variations (product design and dimensional differences will have an impact).
+-	The machine vision control could be developed to be multi-level to further increase the reliability of the assembly process.
+
+The project tested the detection of different product models with machine vision. Identification was successful in laboratory conditions, but at the moment there is no permanent identification code (barcode, QR code) on the product models that could be installed on the product in the future.
+
+The project has developed a workable solution for the assembly of the products and can be considered a success.
 
