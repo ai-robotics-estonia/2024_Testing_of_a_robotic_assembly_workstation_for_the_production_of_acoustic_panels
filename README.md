@@ -99,13 +99,13 @@ This program allows you to read the coordinates of openings from a csv file in a
 
 During the project, the concept of an intelligent fixture was developed, which allows the product to be positioned, secured and rotated to the required position at the robot workstation. This allows the product to be positioned in the appropriate position for screwing.
 
-
+![Model](Pictures/01_Intelligent_Fixture_Solution.jpg)
 Figure 1. Intelligent fixture solution for panel rotation (product not shown)
 
 
 Real testing of screwdriving on a product plate was carried out to evaluate the suitability of screwdriving automation using the cobot solution. The screwdriving worked and a high quality end result was achieved.
 
-
+![Model](Pictures/02_Robot_workplace.JPG)
 Figure 2. Screwing workplace test rig and solutions
 
 
@@ -113,16 +113,19 @@ Figure 2. Screwing workplace test rig and solutions
 
 As a result of the mapping and analysis of the drafting process, the concept and layout of the workplace (including the jig and the robot) were developed. This allows the separation of manual processes and automatic processes.
 
+![Model](Pictures/03_workplace_simplified_layout.jpg)
 Figure 3. Workplace layout concept
 
 
 The user interface has been solved in a UR robot programming environment (for the screwing process). In it, it is possible to view and prepare the robot programming code.
 
+![Model](Pictures/04_user_interface_UR.jpg)
 Figure 4. User interface in UR virtual environment
 
 
 In terms of machine learning, product detection, hole location and coordinate assignment to the robot system were tested. The solution for this detection has been developed in the Cognex In-Sight Explorer environment.
 
+![Model](Pictures/05_machine_vision_solution.jpg)
 Figure 5. Machine vision solution for product identification
 
 
