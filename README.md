@@ -1,4 +1,4 @@
-# [Testing of a robotic assembly workstation for the production of acoustic panels at Silen OÜ]
+# Testing of a robotic assembly workstation for the production of acoustic panels at Silen OÜ
 
 ## Summary
 | Company Name | [Silen OÜ](https://silen.com/en) |
